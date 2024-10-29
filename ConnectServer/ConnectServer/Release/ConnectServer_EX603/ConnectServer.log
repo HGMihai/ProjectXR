@@ -1,0 +1,19 @@
+﻿  stdafx.cpp
+  ClientManager.cpp
+  ConnectServer.cpp
+  ConnectServerProtocol.cpp
+  CriticalSection.cpp
+  IpManager.cpp
+  Log.cpp
+  MemScript.cpp
+  MiniDump.cpp
+  Protect.cpp
+  Queue.cpp
+  ServerDisplayer.cpp
+  ServerList.cpp
+  SocketManager.cpp
+  SocketManagerUdp.cpp
+  Util.cpp
+  Generating code
+  Finished generating code
+  ConnectServer.vcxproj -> C:\Users\Maria\Desktop\LTP Last Sources 2023\Servers\Release\ConnectServer_EX603\ConnectServer.exe

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='EX603_TEST|Win32'">
+    <LocalDebuggerWorkingDirectory>G:\MuServer\GameServer</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <ShowAllFiles>false</ShowAllFiles>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='NewClient|Win32'">
+    <LocalDebuggerWorkingDirectory>D:\MuDev\TestServer\GameServer</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsRemoteDebugger</DebuggerFlavor>
+    <ShowAllFiles>false</ShowAllFiles>
+    <RemoteDebuggerCommand>C:\MuServer_new_client\GameServer\GameServer.exe</RemoteDebuggerCommand>
+    <RemoteDebuggerWorkingDirectory>C:\MuServer_new_client\GameServer\</RemoteDebuggerWorkingDirectory>
+    <RemoteDebuggerServerName>78.47.154.64:4024</RemoteDebuggerServerName>
+    <DeploymentDirectory>C:\MuServer_new_client\GameServer\</DeploymentDirectory>
+    <RemoteDebuggerConnection>RemoteWithAuthentication</RemoteDebuggerConnection>
+    <RemoteDebuggerDebuggerType>NativeOnly</RemoteDebuggerDebuggerType>
+    <AdditionalFiles>
+    </AdditionalFiles>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='EX902_TEST|Win32'">
+    <LocalDebuggerWorkingDirectory>..\Release\TestServer_EX902\GameServer</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <ShowAllFiles>false</ShowAllFiles>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_EX803|Win32'">
+    <LocalDebuggerWorkingDirectory>..\Release\TestServerEX800\GameServer</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='EX803_TEST|Win32'">
+    <LocalDebuggerWorkingDirectory>..\Release\TestServerS8\GameServer</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_EX603CS|Win32'">
+    <LocalDebuggerWorkingDirectory>$(ProjectDir)</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='NewClientCS|Win32'">
+    <LocalDebuggerWorkingDirectory>$(ProjectDir)</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>
